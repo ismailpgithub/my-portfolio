@@ -73,8 +73,8 @@ const About = () => {
                               <p> Developed and maintained Databases</p>
                             </div>
                             <div>
-                              <h4> Software Engineer program at Crio (2024-2025)</h4>
-                              <p> Full stack webdeveloper</p>
+                              <h4> Freelance Full stack webdeveloper for zsquare (2024-present)</h4>
+                              {/* <p> Full stack webdeveloper</p> */}
                             </div>
 
                           </div>

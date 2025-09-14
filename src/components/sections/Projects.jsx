@@ -15,10 +15,10 @@ const Projects = () => {
                     <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
                                     hover: shadow-[0_2px_8px_fgba(59, 130, 246, 0.1)] transition-all'
                         >
-                        <h3 className='text-xl font-bold mb-2'>Cloud Platrom</h3>
-                        <p className='text-gray-400 mb-4'>Scalable cloud infrastructure management with real-time monitoring and automated scaling.</p>
+                        <h3 className='text-xl font-bold mb-2'>URL Shortener</h3>
+                        <p className='text-gray-400 mb-4'>Built a URL Shortener application using the MERN stack, allowing users to shorten URLs, manage custom slugs, and track click statistics.</p>
                         <div className='flex flex-wrap gap-2 mb-4'>
-                            {["React", "Node.js", "Azure", "Docker"].map((tech, key)=>(
+                            {["React", "Node.js", "MongoDB"].map((tech, key)=>(
                                 <span 
                             key = {key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -30,19 +30,19 @@ const Projects = () => {
                         </div>
 
                         <div className='flex justify-between items-center'>
-                            <a href="#" 
+                            <a href="https://url-shortener-rosy-beta.vercel.app" target="_blank"
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                            >View Project =</a>
+                            >View Project =&gt;</a>
                         </div>
                     </div>
                     
                     <div className='p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 
                                     hover: shadow-[0_2px_8px_fgba(59, 130, 246, 0.1)] transition-all'
                         >
-                        <h3 className='text-xl font-bold mb-2'>Cloud Platrom 2</h3>
-                        <p className='text-gray-400 mb-4'>Scalable cloud infrastructure management with real-time monitoring and automated scaling.</p>
+                        <h3 className='text-xl font-bold mb-2'>QKart</h3>
+                        <p className='text-gray-400 mb-4'>Developed QKart, an e-commerce application using the MERN stack with features like product listing, shopping cart, user authentication, and payment gateway integration.</p>
                         <div className='flex flex-wrap gap-2 mb-4'>
-                            {["React", "Node.js", "Azure", "Docker"].map((tech, key)=>(
+                            {["React", "Node.js", "MongoDB"].map((tech, key)=>(
                                 <span 
                             key = {key}
                             className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 
@@ -54,9 +54,9 @@ const Projects = () => {
                         </div>
 
                         <div className='flex justify-between items-center'>
-                            <a href="#" 
+                            <a href="https://ismail-p1721-me-qkart-frontend-v21.vercel.app" target='_blank' 
                             className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                            >View Project =</a>
+                            >View Project =&gt;</a>
                         </div>
                     </div>
                     
